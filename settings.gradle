@@ -1,0 +1,3 @@
+//include ':app', ':mybroadcasting', ':broadcastnet', ':servicetrain', ':servicetoactivity', ':downloadservice', ':systemdownload', ':viewpagertraing', ':downloadservicetrain'
+//include ':app', ':musicservice', ':musicclient', ':actionbartrain', ':mymap'
+include ':app', ':mymap', ':SwiplayoutDemo' //':coordinatorlayout', ':rececalviewdemo', ':slashdemo', ':greendaotools', ':greendaodemo', ':alipaydemo', ':jipush', ':sharedisanfang'//, ':frgment_activity_communication', ':retrofit_rxjava_demo', ':loginmodule'//, ':dagger2demo', ':okhttpdemo', ':day34_okhttp_tool'//, ':selfview', ':textindicate', ':flowinglayout', ':gesturetrain', ':webviewtraining', ':downloadcontinue', ':downloadcotinue'

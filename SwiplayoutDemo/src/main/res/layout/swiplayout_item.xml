@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.myapplication.selfview.SwipLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="100dp"
+    android:id="@+id/my_swiplayout"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#d20001" >
+
+        <LinearLayout
+            android:id="@+id/ll_edit"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:id="@+id/edit"
+                android:src="@android:drawable/ic_menu_edit"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_delete"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:id="@+id/delete"
+                android:src="@android:drawable/ic_menu_delete"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</com.example.myapplication.selfview.SwipLayout>

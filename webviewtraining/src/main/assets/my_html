@@ -1,0 +1,14 @@
+<html>
+    <head>
+       <title>这是我的html文件</title>
+        <script language="JavaScript">
+            function sayHello(text){
+            document.getElementById("mydiv").innerHTML = "android调用了Js"+text;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="mydiv">测试Js</div>
+    <a href="javascript:myJs.showToast('hello,我是JS')">JS调用了安卓</a>
+    </body>
+</html>
